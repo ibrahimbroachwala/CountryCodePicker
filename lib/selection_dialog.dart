@@ -92,6 +92,7 @@ class _SelectionDialogState extends State<SelectionDialog> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: TextField(
+                    autofocus: true,
                     style: widget.searchStyle,
                     decoration: widget.searchDecoration,
                     onChanged: _filterElements,
